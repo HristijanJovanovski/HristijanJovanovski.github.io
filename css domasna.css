@@ -1,0 +1,1019 @@
+
+body{
+    font-family: Georgia serif;
+    background: #000000;
+    margin: 0;
+    z-index: -1;
+    position: relative;
+}
+#body{
+    width: 1508px;
+    height: 1807px;
+    margin: auto;
+    background: linear-gradient(to top ,rgb(0,0,0), rgb(131, 129, 129));
+    animation: backwards;
+    position: relative;
+    z-index: -3;
+}
+#tree{
+    background: url("white-tree-png1.png")no-repeat;
+    width: 199px;
+    height: 250px;
+    background-size: cover;
+    margin: -250px 539px 0 655px;
+}
+
+#intro{
+    background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,0,0));
+    height: auto;
+    margin-top: 15%;
+    width: 800px;
+    float: left;
+    color: #b4a44f;
+    padding-left: 100px;
+    margin-bottom: 0;
+}
+#home h4{
+    font-size: 80px;
+    margin-bottom: 0;
+} #home hr{
+      width: 550px;
+      background: darkred;
+      float: left;
+      height: 1px;
+      border: none;
+  }
+#home p{
+    font-size: 35px;
+}
+#home {background: url("home.jpg")no-repeat 1000px 800px;
+    width: 1508px;
+    height: 800px;
+    background-color: #262626;
+    background-size:1300px 800px;
+    background-position: top right;
+    margin-top: -600px;
+
+}
+#gradient{
+    background:linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.4))no-repeat ;
+    width: 1508px;
+    height: 800px;
+    background-size:cover;
+    background-position: top right;
+    margin-top: -800px;
+
+}
+nav.homenav{
+    margin: auto;
+    padding-top: 600px;
+    z-index: 1;
+}
+nav li.homenav {
+    margin-left: 50px;
+    margin-bottom: -30px;
+    width: 430px;
+    height: 245px;
+    list-style: none;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+nav li a{
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 70px;
+    color: #b4a44f;
+    z-index: 1;
+}
+#roots{
+    background: url("rooooots (2).png") no-repeat ;
+    background-size: 485px 955px;
+    padding-top: 44px;
+    width: 600px;
+    height: 600px;
+    margin: -7px 539px 0 493px;
+
+}
+nav ul li:nth-child(odd)  {
+
+}
+nav ul li:nth-child(even)  {
+
+}
+
+
+nav ul{
+    margin-top: -633px;
+    margin-left: 172px;
+    padding-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1030px;
+    height: 600px;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+#grass{
+
+    width: 665px;
+
+    height: 515px;
+
+    position: absolute;
+
+    background-size: cover;
+
+    margin: -190px 10px 3px 835px;
+}
+#grass-2{
+
+    width: 541px;
+
+    height: 462px;
+
+    position: absolute;
+
+    background-size: cover;
+
+    margin: -154px 20px -43px 83px;
+
+    /* rotate: revert; */
+
+    transform: rotateY(180deg);
+}
+#about h4{
+    font-size: 200%;
+}
+#paper-bg{background: #ccccb8;width: 892px;height: 889px;position:absolute;margin: -838px -37px -43px 104px;z-index: -1;}
+#about #paper {
+    display: block;
+    background: url(paper-texture.png)no-repeat 24px -13px;
+    width: 1057px;
+    /* margin: auto; */
+    margin: -38px 10px 10px -29px;
+    height: 1050px;
+    background-size: cover;
+    position: absolute;
+}
+#about img{
+    width: 483px;
+    height: 608px;
+    float: left;
+    margin: -398px -16px -69px -219px;
+}
+#pic1{
+    background: url("about me.jpg")no-repeat;
+    width: 286px;
+    height: 299px;
+    background-size: 100%;
+    margin: 95px 10px 10px 96px;
+    transform: rotate(3deg);
+    position: absolute;
+}
+#about p{
+    font-size: 130%;
+    width: 756px;
+    height: 664px;
+    margin: 378px -114px -98px 204px;
+    /* float: right; */
+}#about-main{
+     margin: auto;
+     width: 1269px;
+     height: 638px;
+     padding: 90px 10px 10px 216px;
+     background: url("white-tree-branches.png");
+     position: relative;
+     z-index: 0;
+ }
+#about{
+    width: 1500px;
+    /* height: 594px; */
+    margin: auto;
+}
+#about-main #text h4{position: absolute;
+    margin: -197px 10px 10px 475px;
+    font-size: 750%;
+    font-family: "Brush Script MT"
+}
+body#about div#body{
+    width: unset;
+    height: 961px;
+    background: linear-gradient(to top ,rgb(0,0,0), rgb(50, 50, 50));
+}
+nav.aboutnav ul{
+    display: flex;
+    position: absolute;
+    margin: -215px 10px 10px 581px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 0;
+}
+nav.aboutnav ul li {
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    width: 99px;
+    /* border-right: 2px solid white; */
+    height: 50px;
+    z-index: 1;
+    padding: 7px;
+}
+nav li:hover{
+    background: rgba(265,265,265,0.5);
+}
+nav.aboutnav ul li a{
+    color: white;
+    font-size: 20px;
+    /* background-color: rgba(0,0,0); */
+}
+#about #grass{
+    margin: 10px 10px 10px 10px;
+}
+#about #grass-2{
+    margin: 10px 10px 10px 10px;
+}
+#about #body > nav > ul > li:nth-child(2){
+    background: rgb(100, 40, 100);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#about #body > nav > ul > li:nth-child(1){
+    background: #831818;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#about #body > nav > ul > li:nth-child(3){
+    background: #234159;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#about #body > nav > ul > li:nth-child(4){
+    background: #2e4f1e;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#about #body > nav > ul > li:nth-child(5){
+    background: #7d802b;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#about #body > nav > ul > li:hover{
+    padding-top: 15px;
+    margin-top: -9px;
+
+}
+#branches-2{
+    margin: -90px 10px 10px -117px;
+    background: url("Branches-2.png")no-repeat;
+    background-size: cover;
+    width: 1546px;
+    height: 522px;
+    z-index: 1;
+    position: relative;
+}
+#hobbies-main{
+    background: url("paper-folder.png")no-repeat;
+    width: 1100px;
+    height: 1347px;
+    background-size: cover;
+    margin: auto;
+}
+#hobbies-main h4#hobbies-title{
+    background: url("hobbies.png")no-repeat;
+    content-visibility: hidden;
+    width: 498px;
+    height: 179px;
+    position: absolute;
+    margin: -32px 10px 10px 12px;
+}
+#hobbies-main p{
+    width: 500px;
+}
+#painting  p{
+    position:absolute;
+    text-align: right;
+    margin: 303px 10px 10px 464px;
+}
+#photography p{
+    position:absolute;
+    text-align: left;
+    margin: 582px 10px 10px 107px;
+}
+#guitar p{
+    position:absolute;
+    text-align: right;
+    margin: 848px 10px 10px 479px;
+}
+#anime p{
+    position:absolute;
+    text-align: left;
+    margin: 1119px 10px 10px 169px;
+}
+#painting  h4{
+    position:absolute;
+    background: url("painting-title.png")no-repeat;
+    background-size: contain;
+    content-visibility: hidden;
+    width: 294px;
+    height: 232px;
+    margin: 191px 10px 10px 642px;
+}
+#photography h4{
+    position:absolute;
+    margin: 462px 10px 10px 97px;
+    background: url("photography-title.png")no-repeat;
+    width: 412px;
+    height: 122px;
+    background-size: contain;
+    content-visibility: hidden;
+}
+#guitar h4{
+    position:absolute;
+    margin: 760px 10px 10px 438px;
+    background: url("guitar-title.png")no-repeat;
+    width: 557px;
+    height: 122px;
+    background-size: contain;
+    content-visibility: hidden;
+}
+#anime h4{
+    position:absolute;
+    margin: 1023px 10px 10px 151px;
+    background: url("anime-title.png")no-repeat;
+    width: 248px;
+    height: 122px;
+    background-size: contain;
+    content-visibility: hidden;
+}
+#painting-bg{
+    width: 1563px;
+    height: 276px;
+    background: url("painting-bg (2).png");
+    position: absolute;
+    margin: 201px 10px 10px -255px;
+    opacity: 50%;
+    background-size: contain;
+    z-index: -2;
+}
+#photography-bg{
+    width: 1563px;
+    height: 276px;
+    background: url("photography-bg.png");
+    position: absolute;
+    margin: 473px 10px 10px -255px;
+    opacity: 50%;
+    z-index: -1;
+}
+#guitar-bg{
+    width: 1563px;
+    height: 276px;
+    background: url("music notes.png");
+    position: absolute;
+    margin: 749px 10px 10px -255px;
+    opacity: 50%;
+    background-size: contain;
+    z-index: -2;
+}
+#anime-bg{
+    width: 1563px;
+    height: 343px;
+    background: url("akatsuki.png");
+    position: absolute;
+    margin: 1026px 10px 10px -255px;
+    opacity: 50%;
+    z-index: -2;
+} #hobbies img{
+      position: absolute;
+  }
+#painting > img:nth-child(1){
+    width: 250px;
+    height: 372px;
+    margin: 157px 10px 10px 926px;
+    transform: rotate(71deg);
+    z-index: -1;
+}
+
+#painting > img:nth-child(2){
+    width: 253px;
+    height: 317px;
+    margin: 172px 10px 10px -6px;
+    transform: rotate(353deg);
+    z-index: 1;
+}
+#photography > img:nth-child(1){
+    width: 503px;
+    margin: 428px 10px -51px 580px;
+    transform: rotate(333deg);
+    height: 379px;
+}
+#photography > img:nth-child(2){
+    width: 418px;
+    height: 285px;
+    margin: 481px 10px 10px 658px;
+}
+#guitar > img:nth-child(2){
+    width: 390px;
+    transform: rotate(316deg);
+    height: 233px;
+    z-index: -1;
+    margin: 745px 10px 10px 866px;
+}
+img {}
+#guitar > img:nth-child(1){
+    width: 187px;
+    transform: rotate(296deg);
+    height: 204px;
+    /* z-index: -1; */
+    margin: 804px 10px 10px 25px;
+}
+#guitar > img:nth-child(3){
+    width: 151px;
+    transform: rotate(13deg);
+    height: 220px;
+    /* z-index: -1; */
+    margin: 738px 10px 10px 128px;
+}
+#guitar > img:nth-child(4){
+    width: 177px;
+    transform: rotate(329deg);
+    height: 227px;
+    /* z-index: -1; */
+    margin: 783px 10px 10px 103px;
+}
+#guitar > img:nth-child(5){
+    width: 152px;
+    transform: rotate(102deg);
+    height: 243px;
+    margin: 824px 10px 10px 305px;
+}
+#guitar > img:nth-child(6){
+    width: 183px;
+    transform: rotate(29deg);
+    height: 243px;
+    margin: 776px 10px 10px 227px;
+}
+
+
+#anime img:nth-child(1){
+    width: 236px;
+    height: 289px;
+    margin: 1042px 10px 10px -73px;
+}
+#anime img:nth-child(3){
+    width: 219px;
+    height: 247px;
+    margin: 1069px 10px 10px 844px;
+}
+#anime img:nth-child(2){
+    width: 371px;
+    height: 289px;
+    margin: 1012px 10px 10px 659px;
+}
+#anime img:nth-child(4){
+    width: 124px;
+    height: 360px;
+    margin: 997px 10px 10px 975px;
+    transform: rotateY(180deg);
+}
+#anime img:nth-child(6){
+    width: 171px;
+    height: 208px;
+    margin: 1109px 10px 10px 785px;
+    transform: rotateY(180deg);
+}
+#anime img:nth-child(5){
+    width: 281px;
+    height: 292px;
+    margin: 1026px 10px 39px 601px;
+    transform: rotateY(180deg);
+}
+#painting > img:nth-child(4){
+    width: 241px;
+    height: 317px;
+    margin: 123px 10px 10px 195px;
+    transform: rotate(11deg);
+    z-index: 1;
+}
+#hobbies nav ul {
+    display: flex;
+    position: absolute;
+    width: 905px;
+    margin: -34px 10px 10px 409px;
+    height: 47px;
+}
+#hobbies nav li{
+    display: inline-block;
+}
+#hobbies nav li a{
+    font-size: unset;
+}
+#hobbies #body{
+    height: 1296px;
+}
+#hobbies nav {
+    width: 1000px;
+}
+#hobbies #body > nav > ul > li:nth-child(1) {
+    background: url(hobbies-menu.png)no-repeat 137px 10px;
+    background-size: cover;
+    display: inline-block;
+    width: 263px;
+    height: 103px;
+    margin: 10px 10px -84px 25px;
+}
+#hobbies #body > nav > ul > li:nth-child(2) {
+    background: url(hobbies-menu.png)no-repeat -144px 17px;
+    background-size: cover;
+    display: block;
+    width: 270px;
+    height: 118px;
+    margin: 21px 10px -119px -38px;
+}
+#hobbies #body > nav > ul > li:nth-child(3){
+    background: url(hobbies-menu.png)no-repeat 142px -93px;
+    background-size: cover;
+    display: inline-block;
+    width: 270px;
+    height: 84px;
+    margin: -39px 8px -122px  -312px;
+    z-index: 0;
+}
+#hobbies #body > nav > ul > li:nth-child(4){
+    background: url(hobbies-menu.png)no-repeat 136px -215px;
+    background-size: cover;
+    display: inline-block;
+    width: 270px;
+    height: 266px;
+    margin: 41px 9px 10px 153px;
+}
+#hobbies #body > nav > ul > li:nth-child(5) {
+    background: url(hobbies-menu.png)no-repeat -144px -192px;
+    background-size: cover;
+    display: inline-block;
+    width: 270px;
+    margin: -8px 10px 10px -39px;
+    height: 265px;
+}
+#hobbies #body > nav > ul > li:nth-child(1) a{
+    margin: 43px 32px 1px 171px;
+    display: inline-block;
+}
+#hobbies #body > nav > ul > li:nth-child(2) a{
+    margin: 39px 32px 1px 16px;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+}#hobbies #body > nav > ul > li:nth-child(3) a{
+     margin: 35px 32px 1px 168px;
+     display: inline-block;
+ }#hobbies #body > nav > ul > li:nth-child(4) a{
+      margin: 5px 32px 1px 175px;
+      display: inline-block;
+  }
+#hobbies #body > nav > ul > li:nth-child(5) a{
+    margin: 27px 32px 1px 22px;
+    display: inline-block;
+}
+
+#hobbies #body{
+    background: linear-gradient(to top ,rgb(0,0,0), rgb(70, 70, 70));
+}
+#hobbies nav li a{
+    font-size: 20px;
+    color: black;
+}
+#main-trips{
+    background:url("paper-map.png")no-repeat;
+    width: 924px;
+    height: 1356px;
+    margin: 80px auto auto 262px;
+    background-size: cover;
+}
+#trips ul{
+    width: 113px;
+    height: 491px;
+    list-style: none;
+    position: absolute;
+    margin: 111px 10px 10px 119px;
+    z-index: 1;
+}
+#trips ul a{
+    font-size: 20px;
+    color: #d6b803;
+    text-align: center;
+    background: rgb(118 57 18 / 51%);
+}
+#trips #body{
+    padding-top: 2px;
+    height: 1527px;
+    background: url(IMG_20210805_191330.jpg)no-repeat -2px -542px;
+    background-size: cover;
+    width: 1517px;
+}
+#trips #trips-text h4{
+    background: url("trips-title.png")no-repeat;
+    width: 597px;
+    height: 307px;
+    background-size: contain;
+    content-visibility: hidden;
+    position: absolute;
+    margin: -63px 10px 10px -22px;
+}
+#main-trips > nav > ul > li{
+    display: inline-block;
+    background: url(chest.png)no-repeat -130px -51px;
+    width: 271px;
+    height: 145px;
+    background-size: cover;
+}
+
+#main-trips > nav > ul > li:nth-child(1) > a{
+    margin: 52px 10px 10px 41px;
+    display: inline-block;
+}
+#main-trips > nav > ul > li:nth-child(2) > a{
+    margin: 51px 10px 10px 17px;
+    display: inline-block;
+}
+#main-trips > nav > ul > li:nth-child(3) > a{
+    margin: 51px 10px 10px 31px;
+    display: inline-block;
+}#main-trips > nav > ul > li:nth-child(4) > a{
+     margin: 51px 10px 10px 42px;
+     display: inline-block;
+ }
+#main-trips > nav > ul > li:nth-child(5) > a{
+    margin: 52px 10px 10px 28px;
+    display: inline-block;
+}
+
+
+#main-trips > nav > ul > li:nth-child(even){
+    margin: -202px 10px -337px -165px;
+}
+
+#main-trips > nav > ul > li:nth-child(odd){
+    margin: -200px 10px -337px -263px;
+}
+#trips #trips-text p {
+    width: 496px;
+    height: 800px;
+    padding-top: 305px;
+    text-indent: 36px;
+    margin: -42px 10px 10px 145px;
+    font-size: 18px;
+    position: absolute;
+}
+#main-trips > nav > ul > li:hover{
+    display: inline-block;
+    background: url(chest-opened.png)no-repeat 10px -38px;
+    width: 271px;
+    height: 145px;
+    background-size: 112px 171px;
+}
+#main-trips > img:nth-of-type(1){
+    position: absolute;
+    width: 393px;
+    height: 378px;
+    margin: 1075px 10px 10px -157px;
+}
+#main-trips video:nth-of-type(1){
+    width: 478px;
+    height: 205px;
+    position: absolute;
+    margin: 405px 10px 1187px 735px;
+    border-radius: 11px;
+    border: 7px solid #c1bdbd;
+    transform: rotate(344deg);
+    z-index: 2;
+}
+#main-trips > img:nth-of-type(2){
+    position: absolute;
+    border-radius: 10px;
+    border: 7px solid #c1bdbd;
+    width: 354px;
+    height: 244px;
+    margin: -21px 10px 10px 578px;
+    z-index: 1;
+    transform: rotate(351deg);
+}
+#main-trips > img:nth-of-type(3){
+    transform: rotate(16deg);
+    position: absolute;
+    width: 253px;
+    border-radius: 10px;
+    border: 7px solid #c1bdbd;
+    height: 313px;
+    margin: 616px 10px 10px 687px;
+    z-index: 1;
+}
+#main-trips > img:nth-of-type(4){
+    transform: rotate(3deg);
+    position: absolute;
+    width: 354px;
+    height: 244px;
+    border-radius: 10px;
+    border: 7px solid #c1bdbd;
+    margin: 186px 10px 10px 752px;
+}
+#main-trips video:nth-of-type(2){
+    width: 478px;
+    height: 205px;
+    position: absolute;
+    margin: 895px 10px 1187px 735px;
+    border-radius: 11px;
+    border: 7px solid #c1bdbd;
+    transform: rotate(8deg);
+    z-index: 2;
+}
+#main-trips > img:nth-of-type(5){
+    transform: rotate(209deg);
+    position: absolute;
+    width: 633px;
+    height: 244px;
+    margin: 1105px 10px 10px 192px;
+    z-index: 1;
+}
+#main-trips > img:nth-of-type(6){
+    transform: rotate(348deg);
+    position: absolute;
+    width: 354px;
+    height: 244px;
+    border-radius: 10px;
+    border: 7px solid #c1bdbd;
+    margin: 1047px 10px 10px 609px;
+}
+#main-trips > img:nth-of-type(7){
+    position: absolute;
+    transform: rotateY(180deg);
+    width: 149px;
+    height: 179px;
+    margin: 69px 10px 10px 458px;
+    z-index: 1;
+}
+#main-trips > img:nth-of-type(8){
+    position: absolute;
+    transform: rotate(294deg);
+    width: 149px;
+    height: 179px;
+    margin: 32px 10px 10px -55px;
+    z-index: 1;
+}
+#main-contacts{
+    background: url("main-paper.png")no-repeat;
+    width: 1083px;
+    height: 767px;
+    background-size: contain;
+    margin: auto;
+}
+#contacts ul{
+    position: absolute;
+    margin: -18px 10px 10px 474px;
+    height: 200px;
+    width: 482px;
+}
+#contacts nav ul li{
+    background: url(contacts-menu.png)no-repeat 1px 0px;
+    background-size: 100%;
+    width: 100px;
+    list-style: none;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+a{
+    font-size: 24px;
+    color: #6cdc48;
+    display: inline-block;
+    margin-top: -11px;
+}
+#contacts #body{
+    height: 772px;
+}
+#contacts h4{
+    background:url("Contacts-title.png")no-repeat;
+    width: 535px;
+    height: 178px;
+    margin: 10px 10px 10px -16px;
+    position: absolute;
+    content-visibility: hidden;
+    background-size: contain;
+    z-index: 1;
+}
+#contacts-list{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    margin: 234px 10px 10px 160px;
+    width: 759px;
+    justify-content: space-between;
+}
+#contacts-list div{
+    width: 213px;
+    height: 253px;
+    background: url(frame.png)no-repeat 1px -1px rgba(0,0,0,0.5);
+    background-size: contain;
+}
+#contacts-list div a ,#contacts-list div p{
+    position: absolute;
+    width: 216px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #d9dcd8;
+    margin: 191px auto 0px auto;
+    display: inline-block;
+}
+#telephone{
+    background-image: url("phone.png");
+    background-repeat: no-repeat;
+    background-position: -1px -1px;
+    background-size: contain;
+    width: 131px;
+    margin: 36px 10px 10px 42px;
+    position: absolute;
+    display: block;
+    height: 133px;
+}
+
+
+#instagram{
+    background-image: url("instagram.png");
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+    background-size: contain;
+    width: 139px;
+    margin: 17px 10px 10px 38px;
+    position: absolute;
+    display: block;
+    height: 253px;
+}
+#e-mail{
+    background-image: url("mail.png");
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+    background-size: contain;
+    width: 148px;
+    margin: 13px 10px 10px 34px;
+    position: absolute;
+    display: block;
+    height: 253px;
+}
+#plant{
+    background: url("plant.png")no-repeat;
+    width: 579px;
+    height: 957px;
+    background-size: cover;
+    position: absolute;
+    margin: -125px 10px 10px -227px;
+}
+#plant-2{
+    background: url("plant-2.png")no-repeat;
+    width: 618px;
+    height: 912px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    margin: -150px 10px 10px 677px;
+}
+#vines{
+    background: url("vines.png")no-repeat 10px 10px;
+    width: 590px;
+    height: 1446px;
+    background-size: cover;
+    position: absolute;
+    opacity: 90%;
+    margin: -176px 10px 10px 279px;
+    transform: rotate(90deg);
+}
+
+#main-contacts > nav > ul > li:nth-child(1){
+    text-align: center;
+    background: url("wooden sign 1.png")no-repeat;
+    background-size: cover;
+    width: 126px;
+    height: 100px;
+}
+#main-contacts > nav > ul > li:nth-child(2){
+    text-align: center;
+    background: url("wooden sign 2.png")no-repeat;
+    background-size: cover;
+    width: 132px;
+    height: 115px;
+    margin-left: -38px;
+}
+#main-contacts > nav > ul > li:nth-child(3){
+    text-align: center;
+    background: url("wooden sign 3.png")no-repeat;
+    background-size: cover;
+    width: 126px;
+    height: 100px;
+}
+#main-contacts > nav > ul > li:nth-child(4){
+    text-align: center;
+    background: url("wooden sign 4.png")no-repeat;
+    background-size: cover;
+    width: 126px;
+    margin-right: 27px;
+    height: 100px;
+    margin-top: -91px;
+    margin-left: -32px;
+}
+#main-contacts > nav > ul > li:nth-child(5){
+    margin-top: -120px;
+    margin-left: -38px;
+    text-align: center;
+    background: url("wooden sign 5.png")no-repeat;
+    background-size: cover;
+    width: 131px;
+    height: 130px;
+}
+#main-contacts > nav > ul > li:nth-child(5) > a{
+    margin-top: 66px;
+}
+#texture{
+    position: absolute;
+    background: url("texture.jpg")no-repeat;
+    width: 1500px;
+    height: 1010px;
+    background-size: contain;
+    margin: -664px 10px 10px 10px;
+    opacity: 15%;
+}
+#bg{
+    background:url("leafs-bg.jpg");
+    width: 1508px;
+    height: 817px;
+    background-size: contain;
+    opacity: 60%;
+    z-index: -2;
+    margin: -7px 10px 10px -216px;
+    position: absolute;
+}
+#main-contacts > nav > ul > li:nth-child(1) > a{
+    background: url("home-contacts.png")no-repeat;
+    content-visibility: hidden;
+    width: 112px;
+    margin-top: 44px;
+    height: 154px;
+    background-size: contain;
+}
+#main-contacts > nav > ul > li:nth-child(2) > a{
+    background: url("about-me-contacts.png")no-repeat;
+    content-visibility: hidden;
+    width: 179px;
+    height: 143px;
+    background-size: contain;
+    margin: 49px 10px 10px -19px;
+}
+#main-contacts > nav > ul > li:nth-child(3) > a{
+    background: url("hobbies-contacts.png")no-repeat;
+    content-visibility: hidden;
+    width: 156px;
+    height: 157px;
+    background-size: contain;
+    margin: 44px 10px 10px -10px;
+}
+#main-contacts > nav > ul > li:nth-child(4) > a{
+    background: url("trips-contacts.png")no-repeat;
+    content-visibility: hidden;
+    width: 109px;
+    margin-top: 49px;
+    height: 154px;
+    background-size: contain;
+}
+#main-contacts > nav > ul > li:nth-child(5) > a{
+    background: url("contacts-contacts.png")no-repeat;
+    content-visibility: hidden;
+    width: 153px;
+    height: 154px;
+    margin: 89px 10px 10px -10px;
+    background-size: contain;
+}
+#ivy{
+    background: url("ivy.png")no-repeat;
+    width: 400px;
+    height: 600px;
+    position:absolute;
+    margin: -127px 10px 10px 10px;
+    transform: rotate(86deg);
+}
+#contacts-list > div:hover{
+    width: 213px;
+    height: 253px;
+    background: url(frame.png)no-repeat 1px -1px rgba(0,0,0,0.65);
+    background-size: contain;
+}
